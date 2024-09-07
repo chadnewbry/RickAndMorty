@@ -21,9 +21,14 @@ struct ContentView: View {
     @State var characters: [Character] = []
 
     var body: some View {
-
-        List(characters) { character in
-            Text(character.name)
+        NavigationStack {
+            List(characters) { character in
+                NavigationLink {
+                    Text(character.name)
+                } label: {
+                    Text(character.name)
+                }
+            }
         }
         .onAppear {
             Task {
