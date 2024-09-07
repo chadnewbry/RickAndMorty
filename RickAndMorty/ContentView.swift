@@ -27,7 +27,7 @@ struct ContentView: View {
         }
         .onAppear {
             Task {
-                characters = try await CharacterStore.fetch()
+                characters = try await CharacterStore.fetchFromNetwork()
             }
         }
     }
