@@ -24,7 +24,7 @@ struct ContentView: View {
         NavigationStack {
             List(characters) { character in
                 NavigationLink {
-                    Text(character.name)
+                    CharacterDetailView(character: character)
                 } label: {
                     Text(character.name)
                 }

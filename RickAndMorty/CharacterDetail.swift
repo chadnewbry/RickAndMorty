@@ -15,6 +15,9 @@ struct CharacterDetailView: View {
         VStack {
             Text(character.name)
                 .font(.largeTitle)
+            AsyncImage(url: URL(string: character.image))
+            Text(character.status)
+                .font(.subheadline)
         }
     }
 }
