@@ -17,6 +17,7 @@
 		242D7C1A2C8CDD59002C825E /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 242D7C192C8CDD59002C825E /* character.json */; };
 		242D7C1C2C8CDD84002C825E /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D7C1B2C8CDD84002C825E /* CharacterResponse.swift */; };
 		242D7C1E2C8CDE6C002C825E /* CharacterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D7C1D2C8CDE6C002C825E /* CharacterStore.swift */; };
+		242D7C202C8CE4A5002C825E /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D7C1F2C8CE4A5002C825E /* CharacterDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		242D7C192C8CDD59002C825E /* character.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		242D7C1B2C8CDD84002C825E /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
 		242D7C1D2C8CDE6C002C825E /* CharacterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStore.swift; sourceTree = "<group>"; };
+		242D7C1F2C8CE4A5002C825E /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				242D7C192C8CDD59002C825E /* character.json */,
 				242D7C1B2C8CDD84002C825E /* CharacterResponse.swift */,
 				242D7C1D2C8CDE6C002C825E /* CharacterStore.swift */,
+				242D7C1F2C8CE4A5002C825E /* CharacterDetail.swift */,
 			);
 			path = RickAndMorty;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				242D7C1E2C8CDE6C002C825E /* CharacterStore.swift in Sources */,
 				242D7BF02C8CDC94002C825E /* RickAndMortyApp.swift in Sources */,
 				242D7C1C2C8CDD84002C825E /* CharacterResponse.swift in Sources */,
+				242D7C202C8CE4A5002C825E /* CharacterDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
