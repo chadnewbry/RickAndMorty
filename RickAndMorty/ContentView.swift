@@ -18,7 +18,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    
+    var isCarachterActive: Bool = false
     @State var characters: [Character] = []
 
     var body: some View {
