@@ -18,6 +18,7 @@ import SwiftUI
 
 struct ContentView: View {
 
+    
     @State var characters: [Character] = []
 
     var body: some View {
