@@ -26,7 +26,10 @@ struct ContentView: View {
                 NavigationLink {
                     CharacterDetailView(character: character)
                 } label: {
-                    Text(character.name)
+                    VStack {
+                        Text(character.name)
+                        Text("This is misppppelled")
+                    }
                 }
             }
         }
