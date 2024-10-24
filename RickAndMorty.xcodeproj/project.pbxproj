@@ -18,6 +18,7 @@
 		242D7C1C2C8CDD84002C825E /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D7C1B2C8CDD84002C825E /* CharacterResponse.swift */; };
 		242D7C1E2C8CDE6C002C825E /* CharacterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D7C1D2C8CDE6C002C825E /* CharacterStore.swift */; };
 		242D7C202C8CE4A5002C825E /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242D7C1F2C8CE4A5002C825E /* CharacterDetail.swift */; };
+		2478C6BB2CCABEE5008F8307 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2478C6BA2CCABEE5008F8307 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		242D7C1B2C8CDD84002C825E /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
 		242D7C1D2C8CDE6C002C825E /* CharacterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStore.swift; sourceTree = "<group>"; };
 		242D7C1F2C8CE4A5002C825E /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		2478C6BA2CCABEE5008F8307 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				242D7C1B2C8CDD84002C825E /* CharacterResponse.swift */,
 				242D7C1D2C8CDE6C002C825E /* CharacterStore.swift */,
 				242D7C1F2C8CE4A5002C825E /* CharacterDetail.swift */,
+				2478C6BA2CCABEE5008F8307 /* SwiftUIView.swift */,
 			);
 			path = RickAndMorty;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				242D7BF22C8CDC94002C825E /* ContentView.swift in Sources */,
 				242D7C1E2C8CDE6C002C825E /* CharacterStore.swift in Sources */,
+				2478C6BB2CCABEE5008F8307 /* SwiftUIView.swift in Sources */,
 				242D7BF02C8CDC94002C825E /* RickAndMortyApp.swift in Sources */,
 				242D7C1C2C8CDD84002C825E /* CharacterResponse.swift in Sources */,
 				242D7C202C8CE4A5002C825E /* CharacterDetail.swift in Sources */,
